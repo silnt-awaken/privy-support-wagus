@@ -22,6 +22,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<PoolBridge />} />
+          <Route path="/pool" element={<PoolBridge />} />
         </Routes>
       </Router>
     </PrivyProvider>
